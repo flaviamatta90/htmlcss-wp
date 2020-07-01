@@ -84,7 +84,7 @@ main::after{
   font-size: 25px;
 
 }
-.title-box{
+.first-title{
   display:inline-block;
   color: #6d6875;
   text-align: center;
@@ -101,9 +101,19 @@ main::after{
 .col-center{
   float: left;
   width: 50%;
-
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
 }
 
+.second-title{
+  color: #6d6875;
+  padding-bottom: 30px;
+}
+
+p{
+  line-height: 30px;
+}
 .col-right{
   float: left;
   width: 23%;
