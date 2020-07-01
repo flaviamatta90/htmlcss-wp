@@ -9,13 +9,13 @@ body{
 }
 
 .container {
-  width: 1000px;
+  width: 70%;
   margin: auto;
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
+/* header */
 header {
-  height: 150px;
   background-image: url(../img/natural-default-header.jpg);
   position: relative;
   height: 300px;
@@ -38,7 +38,13 @@ header {
   margin-bottom: 30px;
   border: 5px solid #fff;
 }
+/* header */
 
+.white-rounded{
+  background-color: #fff;
+  border-radius: 5px;
+}
+/* nav */
 .inside{
   background-color: #6d6875;
   list-style: none;
@@ -61,14 +67,16 @@ header {
   color: #fff;
   text-decoration: none;
 }
+/* header */
 
+/* main */
 main{
   margin: 1% 0;
 }
 
 main::after{
   content: "";
-  display: table;
+  display: block;
   clear: both;
 }
 
@@ -77,8 +85,6 @@ main::after{
   width: 23%;
   margin-right: 2%;
   padding: 5px;
-  background-color: #fff;
-  border-radius: 5px;
 }
 
 .col-left .fa-rss-square{
@@ -103,8 +109,6 @@ main::after{
   float: left;
   width: 50%;
   padding: 15px;
-  background-color: #fff;
-  border-radius: 5px;
 }
 
 .second-title{
@@ -129,14 +133,12 @@ p{
 
 .widget{
   padding: 15px;
-  border-radius: 5px;
-  background-color: #fff;
   margin-bottom: 25px;
 }
+/* main */
 
+/* footer */
 footer{
-  background-color: #fff;
-  border-radius: 5px;
   margin-bottom: 25px;
 }
 
@@ -149,11 +151,8 @@ footer:after {
 h4{
   color: rgba(0, 0, 0, 0.3);
   text-align: center;
-  padding-top: 5px;
-}
-
-hr{
-  color: rgba(0, 0, 0, 0.3);
+  padding: 5px 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3)
 }
 
 .social{
@@ -167,3 +166,4 @@ footer .fab{
   font-size: 40px;
   color: rgba(0, 0, 0, 0.3);
 }
+/* footer */
